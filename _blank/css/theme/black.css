@@ -11,6 +11,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
+  text-align: left;
   background: #191919;
   background-color: #191919; }
 
@@ -50,7 +51,9 @@ body {
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
+  /**
   text-transform: uppercase;
+  **/
   text-shadow: none;
   word-wrap: break-word; }
 
