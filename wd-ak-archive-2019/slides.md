@@ -1,4 +1,4 @@
-# Wikidata (für Archive)
+# Wikidata<br />(für Archive)
 
 #### AK Archive der Leibniz-Gemeinschaft<br />Bonn, 1.10.2019
 
@@ -55,7 +55,7 @@ explizit auch für andere Nutzungen
 
 <img src="images/Wikidata_statement_with_ids.svg" style="background-color:white" />
 
-Note: Wikidata besteht im wesentlichen aus
+Note: Wikidata besteht im Wesentlichen aus
 - Items
   - eindeutig identifiziert durch Qids
   - mit einem Label pro Sprache
@@ -100,7 +100,7 @@ Note: Sektion Identifier / Bezeichner
 
 ## Verlinkungs-Mechanismus
 
-- ca. 4000 Properies vom Datentyp "external-id"
+- ca. 4000 Properties vom Datentyp "external-id"
 - große Vielfalt, z.B.:
   - GND / VIAF / Geonames IDs
   - Proteine
@@ -124,7 +124,7 @@ Note: Sektion Identifier / Bezeichner
 
 - alle 5.266 Personenmappen verlinkt (346 neue Items)
 - zusätzliche Daten (z.B. Berufsangaben für Wirtschaftswissenschaftler/innen)
-- zusätzliche Verknüpfungen (z.B. Famile Warburg)
+- zusätzliche Verknüpfungen (z.B. Familie Warburg)
 - in Abfragen und Anwendungen nutzbar
   - z.B. Karte von Wirtschaftswissenschaftler/innen der Pressemappe per [Wikidata-Abfrage](https://w.wiki/3uX)
 
@@ -136,7 +136,7 @@ Note: Vorbereitung einer Data Donation an Wikidata
 
 ## Agieren in der Wikidata-Community
 
-- Beteilung mit individuellem User (tunlichst unter Offenlegung der beruflichen Einbindung - [Beispiel](https://www.wikidata.org/wiki/User:Jneubert))
+- Beteiligung mit individuellem User (tunlichst unter Offenlegung der beruflichen Einbindung - [Beispiel](https://www.wikidata.org/wiki/User:Jneubert))
 - keine zentrale Entscheidungsstruktur
 - Konsensbildung, mit dem [Project Chat](https://www.wikidata.org/wiki/Wikidata:Project_chat) als wichtigstem Forum
 - WikiProjects, um Themen zu fokussieren (oft auch gute Anlaufstelle für Datenstrukturierung)
@@ -171,4 +171,23 @@ auf Wikidata: [Jneubert](https://www.wikidata.org/wiki/User:Jneubert)<br />
 
 ---
 
+## Qualitätssicherung bei Wikidata
+
+- Jeder kann alles ändern: Chancen des Crowdsourcings ./. Gefahr der Kompromittierung
+- Grundansatz: Anforderung, für jeden einzelnen Fakt Quellen zu benennen
+- Unterstützung von Autor/innen bei der Eingabe durch Constraints (z.B. Format ISBN, z.B. Geburtsdatum < Todesdatum)
+- alle Versionen bleiben mit Autor, Änderungszeitpunkt und Inhalt erhalten
+- Zurücksetzen einer Änderung technisch sehr einfach
+
+---
+
+[![revision history gandhi](images/revision_history_gandhi1.png)](https://www.wikidata.org/w/index.php?title=Q1001&action=history)
+
+---
+
+## Automatische Tools zur Vandalismuserkennung
+
+- [Patroling](https://www.wikidata.org/wiki/Wikidata:Patrol) ist Handarbeit
+- Tools zur Filterung aller händischen Änderungen auf "verdächtige" (z.B. "neuer Editor löscht Statement")
+- zunehmender Einsatz von regelbasierten oder machine-learning Tools
 
