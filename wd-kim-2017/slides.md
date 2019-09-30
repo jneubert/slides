@@ -1,4 +1,4 @@
----
+<!--
 title: Wikidata as authority linking hub
 lang: en
 slideOptions:
@@ -6,7 +6,7 @@ slideOptions:
   slideNumber: false
   showNotes: false
   theme: white
----
+-->
 
 <!-- Adjust the default reveal.js style -->
 <style type="text/css">
