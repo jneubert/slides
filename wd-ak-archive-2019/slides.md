@@ -160,7 +160,7 @@ Note: Vorbereitung einer Data Donation an Wikidata
 - Kontextualisierung für die eigenen Bestände, ohne die Daten selbst erheben/speichern zu müssen
 - Crowdsourcing für eine erweiterte Erschließung?
 - Andocken an weltgrößten Linking Hub
-- Einstieg in Linked Open Data
+- niedrigschwelliger Einstieg in Linked Open Data
 
 ---
 
@@ -181,7 +181,7 @@ auf Wikidata: [Jneubert](https://www.wikidata.org/wiki/User:Jneubert)<br />
 
 - Jeder kann alles ändern: Chancen des Crowdsourcings ./. Gefahr der Kompromittierung
 - Grundansatz: Anforderung, für jeden einzelnen Fakt Quellen zu benennen
-- Unterstützung von Autor/innen bei der Eingabe durch Constraints (z.B. Format ISBN, z.B. Geburtsdatum < Todesdatum)
+- Unterstützung von Autor/innen bei der Eingabe durch [Constraints](https://www.wikidata.org/wiki/Help:Property_constraints_portal) (z.B. Format ISBN, z.B. Geburtsdatum < Todesdatum)
 - alle Versionen bleiben mit Autor, Änderungszeitpunkt und Inhalt erhalten
 - Zurücksetzen einer Änderung technisch sehr einfach
 
@@ -193,7 +193,7 @@ auf Wikidata: [Jneubert](https://www.wikidata.org/wiki/User:Jneubert)<br />
 
 ## Automatische Tools zur Vandalismuserkennung
 
-- [Patroling](https://www.wikidata.org/wiki/Wikidata:Patrol) ist Handarbeit
+- [Patroling](https://www.wikidata.org/wiki/Wikidata:Patrol) ist Handarbeit = Fokussierung unerlässlich
 - Tools zur Filterung aller händischen Änderungen auf "verdächtige" (z.B. "neuer Editor löscht Statement")
 - zunehmender Einsatz von regelbasierten oder machine-learning Tools
 
