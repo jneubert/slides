@@ -81,7 +81,7 @@ Note: Englische / deutsche Fassung (Link)
 
 ## Nutzung - Schnittstellen
 
-- [Website](https://www.wikidata.org) / Wikipedia verlinkt auf Items
+- [Website](https://www.wikidata.org) <- Wikipedia verlinkt auf Items
 - Abfragen über http://query.wikidata.org/ (SPARQL)
 - Gesamt-Datendumps
 - API (JSON)
@@ -91,9 +91,12 @@ Note: Englische / deutsche Fassung (Link)
 
 ### Verlinkung zu externen Daten - Beispiel
 
-[![aagarwal](images/agarwal_sqid.jpg)](https://tools.wmflabs.org/sqid/#/view?id=Q4913801&lang=de)
+![to hub](images/map_to_hub.png)
 
-Note: Sektion Identifier / Bezeichner
+eigene Sektion Identifier / Bezeichner
+
+Note: Nochmal Agarwal
+- Sektion Identifier / Bezeichner
 - Link zu RePEc - direkter Zugriff auf Working Papers der Autorin
 
 ---
@@ -117,6 +120,7 @@ Note: Sektion Identifier / Bezeichner
 - Links zu ihren Beständen
 - fehlende Werte für Properties ergänzen (mit Tools wie [QuickStatements](https://tools.wmflabs.org/quickstatements/))
 - fehlende Items ergänzen (dito)
+  - s.a. [Relevanzkriterien](https://www.wikidata.org/wiki/Wikidata:Notability/de)
 
 ---
 
@@ -139,6 +143,7 @@ Note: Vorbereitung einer Data Donation an Wikidata
 - Beteiligung mit individuellem User (tunlichst unter Offenlegung der beruflichen Einbindung - [Beispiel](https://www.wikidata.org/wiki/User:Jneubert))
 - keine zentrale Entscheidungsstruktur
 - Konsensbildung, mit dem [Project Chat](https://www.wikidata.org/wiki/Wikidata:Project_chat) als wichtigstem Forum
+- Mailingliste / "Weekly Summary"
 - WikiProjects, um Themen zu fokussieren (oft auch gute Anlaufstelle für Datenstrukturierung)
 
 ---
@@ -154,6 +159,7 @@ Note: Vorbereitung einer Data Donation an Wikidata
 - erhöhte Sichtbarkeit (zusätzlicher Discovery-Kanal)
 - Kontextualisierung für die eigenen Bestände, ohne die Daten selbst erheben/speichern zu müssen
 - Crowdsourcing für eine erweiterte Erschließung?
+- Andocken an weltgrößten Linking Hub
 - Einstieg in Linked Open Data
 
 ---
