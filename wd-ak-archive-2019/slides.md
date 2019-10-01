@@ -25,9 +25,9 @@ Note: Wer hat schon
 
 1. Was ist und wie funktioniert Wikidata?
 2. Wie können Archive
-  - es nutzen?
-  - sich verlinken?
-  - beitragen?
+   - es nutzen?
+   - sich verlinken?
+   - beitragen?
 
 <!--
 3. Wie sichert Wikidata die Qualität?
@@ -81,7 +81,7 @@ Note: Englische / deutsche Fassung (Link)
 
 ## Nutzung - Schnittstellen
 
-- [Website](https://www.wikidata.org) <- Wikipedia verlinkt auf Items
+- [Website](https://www.wikidata.org) ← Wikipedia verlinkt auf Items ([Wikidata-Datenobjekt, unter Werkzeuge](https://de.wikipedia.org/wiki/Mohandas_Karamchand_Gandhi#p-tb-label))
 - Abfragen über http://query.wikidata.org/ (SPARQL)
 - Gesamt-Datendumps
 - API (JSON)
@@ -93,7 +93,8 @@ Note: Englische / deutsche Fassung (Link)
 
 ![to hub](images/map_to_hub.png)
 
-eigene Sektion Identifier / Bezeichner
+eigene Sektion auf den Wikidata-Webseiten:<br />
+[Identifier / Bezeichner](https://www.wikidata.org/wiki/Q4913801#identifiers)
 
 Note: Nochmal Agarwal
 - Sektion Identifier / Bezeichner
@@ -189,11 +190,15 @@ auf Wikidata: [Jneubert](https://www.wikidata.org/wiki/User:Jneubert)<br />
 
 [![revision history gandhi](images/revision_history_gandhi1.png)](https://www.wikidata.org/w/index.php?title=Q1001&action=history)
 
+Note: Vandalismus und Überprüfung verdächtiger Einträge ´(new editor changing statement)
+- erfahrener User setzt Bearbeitung zurück
+- beim 2. Mal: Admin erhöht Schutzlevel der Seite
+
 ---
 
 ## Automatische Tools zur Vandalismuserkennung
 
-- [Patroling](https://www.wikidata.org/wiki/Wikidata:Patrol) ist Handarbeit = Fokussierung unerlässlich
+- [Patroling](https://www.wikidata.org/wiki/Wikidata:Patrol) ist Handarbeit =&gt; Fokussierung unerlässlich
 - Tools zur Filterung aller händischen Änderungen auf "verdächtige" (z.B. "neuer Editor löscht Statement")
 - zunehmender Einsatz von regelbasierten oder machine-learning Tools
 
