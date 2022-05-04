@@ -1,0 +1,136 @@
+<h1 id="wikidata-pressearchiv-20.-jh.">Wikidata +<br />Pressearchiv 20. Jh.</h1>
+<h4 id="netzwerk-pressedokumentation-5.5.2022">Netzwerk Pressedokumentation, 5.5.2022</h4>
+<p><a href="http://zbw.eu/labs/en/user/joachim-neubert">Joachim Neubert</a></p>
+<!--
+ZBW - Leibniz-Informationszentrum Wirtschaft, Kiel/Hamburg
+ZBW - Leibniz Information Centre for Economics, Kiel/Hamburg (Germany)
+-->
+
+<p><a href="https://zbw.eu"><img src="images/zbw_logo.png" width="33%" alt="ZBW - Leibniz Information Centre for Economics" /></a><br /></p>
+<p><small>https://jneubert.github.io/slides/wd-netzwerk-pressedokumentation-2022/<br /> <a href="https://creativecommons.org/licenses/by/4.0/"><img src="images/cc-by.png" class="plain" width="25%" /></a></small></p>
+<p>Note: Wer hat schon - von Wikidata gehört? - Abfragen an Wikidata formuliert? - zu Wikidata beigetragen?</p>
+<hr />
+<h2 id="agenda">Agenda</h2>
+<ol style="list-style-type: decimal">
+<li>Was ist und wie funktioniert Wikidata?</li>
+<li>Wie können Archive</li>
+</ol>
+<ul>
+<li>es nutzen?</li>
+<li>sich verlinken?</li>
+<li>beitragen?</li>
+</ul>
+<!--
+3. Wie sichert Wikidata die Qualität?
+-->
+
+<hr />
+<h2 id="wikidata-ist-...">Wikidata ist ...</h2>
+<p>... eine freie, kollaborative und vielsprachige Wissensdatenbank.</p>
+<ul>
+<li>Daten für alle Zwecke frei verfügbar (CC0-Lizenz)</li>
+<li>jede/r kann ändern (wie in Wikipedia)</li>
+<li>Inhalte für alle Sprachen verfügbar</li>
+</ul>
+<p>Note: Aus Wikipedia entstanden - Information an einer Stelle - Verknüpfung Sprachversionen</p>
+<p>explizit auch für andere Nutzungen</p>
+<hr />
+<h2 id="strukturierte-daten">Strukturierte Daten</h2>
+<p><img src="images/Wikidata_statement_with_ids.svg" style="background-color:white" /></p>
+<p>Note: Wikidata besteht im Wesentlichen aus - Items - eindeutig identifiziert durch Qids - mit einem Label pro Sprache - Statements mit - Property - eindeutig identifiziert durch Pids - ebenfalls ein Label pro Sprache - Wert (String, Datum, Item, etc) - optional Qualifier und Referenzen</p>
+<hr />
+<h3 id="beispiel-item">Beispiel-Item</h3>
+<p><a href="https://tools.wmflabs.org/sqid/#/view?id=Q4913801&amp;lang=de"><img src="images/agarwal_sqid.jpg" alt="aagarwal" /></a></p>
+<p>Note: Englische / deutsche Fassung (Link) - nicht nur Text zu dem Item selbst, sondern auch die Bezeichnungen verlinkter Items und der Properties folgen der bevorzugten Sprache - Referenzen - Items nicht nur zu Personen, sondern auch zu Orten, Organisationen, Werken, abstrakten Konzepten ...</p>
+<hr />
+<h2 id="nutzung---schnittstellen">Nutzung - Schnittstellen</h2>
+<ul>
+<li><a href="https://www.wikidata.org">Website</a> ← Wikipedia verlinkt auf Items (<a href="https://de.wikipedia.org/wiki/Mohandas_Karamchand_Gandhi#p-tb-label">Wikidata-Datenobjekt, unter Werkzeuge</a>)</li>
+<li>Abfragen über http://query.wikidata.org/ (SPARQL)</li>
+<li>Gesamt-Datendumps</li>
+<li>API (JSON)</li>
+<li>Applikationen auf Grundlage der API</li>
+</ul>
+<hr />
+<h3 id="verlinkung-zu-externen-daten---beispiel">Verlinkung zu externen Daten - Beispiel</h3>
+<div class="figure">
+<img src="images/map_to_hub.png" alt="to hub" /><p class="caption">to hub</p>
+</div>
+<p>eigene Sektion auf den Wikidata-Webseiten:<br /> <a href="https://www.wikidata.org/wiki/Q4913801#identifiers">Identifier / Bezeichner</a></p>
+<p>Note: Nochmal Agarwal - Sektion Identifier / Bezeichner - Link zu RePEc - direkter Zugriff auf Working Papers der Autorin</p>
+<hr />
+<h2 id="verlinkungs-mechanismus">Verlinkungs-Mechanismus</h2>
+<ul>
+<li>ca. 4000 Properties vom Datentyp &quot;external-id&quot;</li>
+<li>große Vielfalt, z.B.:</li>
+<li>GND / VIAF / Geonames IDs</li>
+<li>Proteine</li>
+<li>afrikanische Pflanzen</li>
+<li>schwedische Kulturerbe-Objekte</li>
+<li>funktionsfähige Links (in Verbindung mit einem URL-Template)</li>
+<li>die Einrichtung von neuen Properties kann jede/r beantragen <a href="https://www.wikidata.org/wiki/Wikidata:Property_proposal/STW_Thesaurus_for_Economics_ID">(Beispiel)</a></li>
+<li>Toolunterstützung, insbesondere <a href="https://tools.wmflabs.org/mix-n-match/">Mix-n-Match</a></li>
+</ul>
+<hr />
+<h2 id="wie-können-archive-beitragen">Wie können Archive beitragen?</h2>
+<ul>
+<li>Links zu ihren Beständen</li>
+<li>fehlende Werte für Properties ergänzen (mit Tools wie <a href="https://tools.wmflabs.org/quickstatements/">QuickStatements</a>)</li>
+<li>fehlende Items ergänzen (dito)</li>
+<li>s.a. <a href="https://www.wikidata.org/wiki/Wikidata:Notability/de">Relevanzkriterien</a></li>
+</ul>
+<hr />
+<h3 id="z.b.-pressemappe-20.-jahrhundert">z.B. Pressemappe 20. Jahrhundert</h3>
+<ul>
+<li>alle 5.266 Personenmappen verlinkt (346 neue Items)</li>
+<li>zusätzliche Daten (z.B. Berufsangaben für Wirtschaftswissenschaftler/innen)</li>
+<li>zusätzliche Verknüpfungen (z.B. Familie Warburg)</li>
+<li>in Abfragen und Anwendungen nutzbar</li>
+<li>z.B. Karte von Wirtschaftswissenschaftler/innen der Pressemappe per <a href="https://w.wiki/3uX">Wikidata-Abfrage</a></li>
+</ul>
+<p>Note: Vorbereitung einer Data Donation an Wikidata - konkret die Metadaten - ZBW bleibt in der Verantwortung (Wikidata als sekundäre Datenbank)</p>
+<hr />
+<h2 id="agieren-in-der-wikidata-community">Agieren in der Wikidata-Community</h2>
+<ul>
+<li>Beteiligung mit individuellem User (tunlichst unter Offenlegung der beruflichen Einbindung - <a href="https://www.wikidata.org/wiki/User:Jneubert">Beispiel</a>)</li>
+<li>keine zentrale Entscheidungsstruktur</li>
+<li>Konsensbildung, mit dem <a href="https://www.wikidata.org/wiki/Wikidata:Project_chat">Project Chat</a> als wichtigstem Forum</li>
+<li>Mailingliste / &quot;Weekly Summary&quot;</li>
+<li>WikiProjects, um Themen zu fokussieren (oft auch gute Anlaufstelle für Datenstrukturierung)</li>
+</ul>
+<hr />
+<h3 id="z.b.">z.B.</h3>
+<p><a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_20th_Century_Press_Archives"><img src="images/wikiproject_pm20.png" alt="wikiproject pm20" /></a></p>
+<hr />
+<h2 id="wikidata-für-archive">Wikidata für Archive</h2>
+<ul>
+<li>erhöhte Sichtbarkeit (zusätzlicher Discovery-Kanal)</li>
+<li>Kontextualisierung für die eigenen Bestände, ohne die Daten selbst erheben/speichern zu müssen</li>
+<li>Crowdsourcing für eine erweiterte Erschließung?</li>
+<li>Andocken an weltgrößten Linking Hub</li>
+<li>niedrigschwelliger Einstieg in Linked Open Data</li>
+</ul>
+<hr />
+<h2 id="vielen-dank--fragen-willkommen">Vielen Dank -<br />Fragen willkommen!</h2>
+<p><a href="http://zbw.eu/labs/en/user/joachim-neubert">Joachim Neubert</a><br /> j.neubert@zbw.eu<br /> auf Wikidata: <a href="https://www.wikidata.org/wiki/User:Jneubert">Jneubert</a><br /> <img src="images/zbw_logo.png" alt="zbw logo" /></p>
+<hr />
+<h1 id="zusätzliches-material"><em>zusätzliches Material</em></h1>
+<hr />
+<h2 id="qualitätssicherung-bei-wikidata">Qualitätssicherung bei Wikidata</h2>
+<ul>
+<li>Jeder kann alles ändern: Chancen des Crowdsourcings ./. Gefahr der Kompromittierung</li>
+<li>Grundansatz: Anforderung, für jeden einzelnen Fakt Quellen zu benennen</li>
+<li>Unterstützung von Autor/innen bei der Eingabe durch <a href="https://www.wikidata.org/wiki/Help:Property_constraints_portal">Constraints</a> (z.B. Format ISBN, z.B. Geburtsdatum &lt; Todesdatum)</li>
+<li>alle Versionen bleiben mit Autor, Änderungszeitpunkt und Inhalt erhalten</li>
+<li>Zurücksetzen einer Änderung technisch sehr einfach</li>
+</ul>
+<hr />
+<p><a href="https://www.wikidata.org/w/index.php?title=Q1001&amp;action=history"><img src="images/revision_history_gandhi1.png" alt="revision history gandhi" /></a></p>
+<p>Note: Vandalismus und Überprüfung verdächtiger Einträge ´(new editor changing statement) - erfahrener User setzt Bearbeitung zurück - beim 2. Mal: Admin erhöht Schutzlevel der Seite</p>
+<hr />
+<h2 id="automatische-tools-zur-vandalismuserkennung">Automatische Tools zur Vandalismuserkennung</h2>
+<ul>
+<li><a href="https://www.wikidata.org/wiki/Wikidata:Patrol">Patroling</a> ist Handarbeit =&gt; Fokussierung unerlässlich</li>
+<li>Tools zur Filterung aller händischen Änderungen auf &quot;verdächtige&quot; (z.B. &quot;neuer Editor löscht Statement&quot;)</li>
+<li>zunehmender Einsatz von regelbasierten oder machine-learning Tools</li>
+</ul>
