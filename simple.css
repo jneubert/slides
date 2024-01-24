@@ -1,0 +1,170 @@
+@import "./normalize.css";
+
+html {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.4;
+}
+body {
+  max-width:1000px;
+  margin:auto;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+pre, tt, code {
+  font-family: Courier, monospace;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+/**.wikitable { **/
+table {
+  page-break-inside:avoid;
+  background:#fff;
+  margin:1em 0;
+  border:1pt solid #aaa;
+  border-collapse:collapse;
+}
+.wikitable {
+  font-size:81%;
+  line-height: 1.2;
+}
+.wikitable caption {
+  padding:5px;
+}
+.wikitable tr > th,.wikitable tr > td,.wikitable * > tr > th,.wikitable * > tr > td {
+  background:#fff;
+  color:#000 !important;
+  border:1pt solid #aaa;
+  padding:0.4em 0.6em
+}
+.wikitable tr > th,.wikitable * > tr > th {
+  text-align:center
+}
+table.listing,table.listing td {
+  border:1pt solid #000;
+  border-collapse:collapse
+}
+.wikitable * > tr.is-online > td {
+  background-color: palegreen;
+}
+
+.fieldtable table, .fieldtable td, .fieldtable th {
+  border: none;
+  padding: 2px;
+  vertical-align: top;
+}
+.fieldtable td:nth-child(1)::after {
+  content: ":";
+}
+
+.sectiontable table {
+  border: none;
+  width: 100%;
+}
+
+.sectiontable td, .sectiontable th {
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  vertical-align: top;
+}
+
+.btn {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #20538D;
+  background: #4479BA;
+  color: #FFF;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.btn-small {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  font-size: 81%;
+  border-radius: 4px;
+  border: solid 1px #4479BA;
+  background: #6994c8;
+  color: #FFF;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+div.home {
+  font-size: 160%;
+}
+div.home ul {
+  list-style-type: none;
+  color: gray;
+  padding: 0px;
+}
+div.home li:before {
+  content: '\276F';
+  margin: 0 1em;
+}
+
+div.hint {
+  font-size: 81%;
+}
+div.spacer {
+  font-size: 30%;
+}
+span.is-online {
+  background-color: palegreen;
+}
+span.gray {
+  color: gray;
+}
+
+span.hint {
+  font-size: 81%;
+}
+
+header img {
+ width: 100%;
+ max-width: 700px;
+ height="auto";
+ margin-top: 3em;
+ margin-bottom: 2em;
+}
+footer {
+  margin-top: 36px;
+  font-size: 81%;
+  margin-bottom: 2em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.inline-icon {
+    border: 0px;
+    margin-bottom: 0.14em;
+    vertical-align: middle;
+    height: 0.7em;
+}
+
+
+div.yasr table.resultsTable {
+  color: black;
+}
+
+/* helper classes for left-right in one line */
+.is-flex {
+  display: flex;
+}
+.has-text-left {
+  width: 100%;
+  text-align: left; 
+}
+.has-text-right { 
+  width: 100%;
+  text-align: right; 
+}
